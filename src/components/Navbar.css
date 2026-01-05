@@ -1,0 +1,66 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(135deg, #1a082d, #2e0f52);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  box-shadow: 0 4px 15px rgba(128, 0, 255, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #e6d9ff;
+  letter-spacing: 1px;
+}
+
+/* Links container */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+/* Links */
+.navbar-links li a {
+  text-decoration: none;
+  color: #d1b3ff;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover underline animation */
+.navbar-links li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -6px;
+  background-color: #bb86fc;
+  transition: width 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #ffffff;
+}
+
+.navbar-links li a:hover::after {
+  width: 100%;
+}
