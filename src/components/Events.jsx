@@ -90,7 +90,7 @@ const Events = () => {
           </button>
         </div>
         <div className="event-card">
-          <div className="event-badge">Talk Session</div>
+          <div className="event-badge workshop">Talk Session</div>
           <h3>ByteTalk</h3>
 
           <div className="event-info">
@@ -108,7 +108,7 @@ const Events = () => {
           </button>
         </div>
         <div className="event-card">
-          <div className="event-badge">Hackathon</div>
+          <div className="event-badge talk">Hackathon</div>
           <h3>TechTornado</h3>
 
           <div className="event-info">
