@@ -72,24 +72,7 @@ const Events = () => {
           </button>
         </div>
         <div className="event-card">
-          <div className="event-badge">Hackathon</div>
-          <h3>ByteTalk</h3>
-
-          <div className="event-info">
-            <span><FaCalendarAlt /> March 14, 2026</span>
-            <span><FaMapMarkerAlt /> On Campus</span>
-          </div>
-
-          <p>
-            An interactive section with top programmers and alumni from
-            the college
-          </p>
-
-          <button className="event-btn">
-            Register <FaArrowRight />
-          </button>
-        </div><div className="event-card">
-          <div className="event-badge">Hackathon</div>
+          <div className="event-badge">Workshop</div>
           <h3>BuildWithCode</h3>
 
           <div className="event-info">
@@ -105,7 +88,26 @@ const Events = () => {
           <button className="event-btn">
             Register <FaArrowRight />
           </button>
-        </div><div className="event-card">
+        </div>
+        <div className="event-card">
+          <div className="event-badge">Talk Session</div>
+          <h3>ByteTalk</h3>
+
+          <div className="event-info">
+            <span><FaCalendarAlt /> March 14, 2026</span>
+            <span><FaMapMarkerAlt /> On Campus</span>
+          </div>
+
+          <p>
+            An interactive section with top programmers and alumni from
+            the college
+          </p>
+
+          <button className="event-btn">
+            Register <FaArrowRight />
+          </button>
+        </div>
+        <div className="event-card">
           <div className="event-badge">Hackathon</div>
           <h3>TechTornado</h3>
 
