@@ -1,5 +1,6 @@
 .events {
-  padding: 90px 20px;
+  min-height: 100vh;
+  width: 100%;
   background: linear-gradient(135deg, #12001f, #2a0944);
   color: #e6d9ff;
   text-align: center;
